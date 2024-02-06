@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [@Github](https://github.com/WAYD0S/advice-generator)
-- Live Site URL: [@Netlify](https://your-live-site-url.com)
+- Live Site URL: [@Netlify](https://advice-generator-wayd0s.netlify.app/)
 
 ## My process
 
