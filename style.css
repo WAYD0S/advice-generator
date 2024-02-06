@@ -15,6 +15,7 @@
 body{
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: var(--Dark-Blue);
@@ -63,6 +64,14 @@ button:hover{
     filter: drop-shadow(0 0 0.75rem hsl(150, 100%, 66%));
     transition: all 0.2s ease-out
 }
+
+footer {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
 @media screen and (max-width:500px) {
     .advice-card{
         width: 350px;
