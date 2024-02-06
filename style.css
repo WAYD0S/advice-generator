@@ -25,7 +25,9 @@ body{
     background-color: var(--Dark-Grayish-Blue);
     border-radius: 1rem;
     position: relative;
+
 }
+
 .card-container{
     padding: 2rem 3rem;
     text-align: center;
@@ -34,6 +36,19 @@ body{
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
+    transform-style: preserve-3d;
+}
+
+.card-container.flip {
+    animation: flip-card 0.5s ease-in-out forwards; /* Add animation only when flip class is applied */
+}
+@keyframes flip-card {
+    from {
+      transform: rotateY(0);
+    }
+    to {
+      transform: rotateY(180deg);
+    }
 }
 p{
     color: var(--Neon-Green);
